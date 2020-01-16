@@ -1,15 +1,4 @@
 def find_item_by_name_in_collection(name, collection)
-  #This will return the matching hash of provided name, in the given collection (which is AoH) {:item => banana}
-  i = 0
-  while i < collection.length do
-    if (collection[i][:item] == name)
-      return collection[i]
-    elsif ((collection[i][:item] != name) && (i == (collection.length - 1)))
-      return nil
-    else
-      i += 1
-    end
-  end
 end
 
 
